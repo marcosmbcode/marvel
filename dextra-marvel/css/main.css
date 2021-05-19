@@ -111,4 +111,8 @@ table {
         display: flex;
         width: 90%;
     }
+
+    .modal-content {
+        width: 90%;
+    }
 }
