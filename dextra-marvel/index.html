@@ -1,0 +1,286 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!--meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="css/main.css">
+    <title>Marvel</title>
+  </head>
+  <body class="center">
+      <h2 class="titulo-busca">Busque seu Personagem</h2>
+      <input class="form-control" id="myInput" type="text" placeholder="Digite o nome">
+      <div id="galery-marvel" class="row" >
+        <table id="table-marvel" class="display" data-order='[[ 1, "asc" ]]' data-page-length='20'>
+          <tbody id="myTable">
+            <tr>
+              <td> 
+                <div class="card" id="c0">
+                  <img id="i0" class="card-img-top img-thumbnail" src="" alt="Card image cap" >
+                  <div class="card-body">
+                    <h5 class="card-title" id="n0" >Card title</h5>
+                    <h5 class="card-title" id="cod0" >Card title</h5>
+                    <a href="#" onclick="showHistorys(this)" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Quadrinhos</a>
+                  </div>
+                </div>
+              </td>
+              <td>
+                <div class="card" id="c1">
+                  <img id="i1" class="card-img-top img-thumbnail" src="" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 id="n1" class="card-title">Card title</h5>
+                    <h5 class="card-title" id="cod1" >Card title</h5>
+                    <a href="#" onclick="showHistorys(this)" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Quadrinhos</a>
+                  </div>
+                </div>
+              </td>
+              <td>
+                <div class="card" id="c2">
+                  <img id="i2" class="card-img-top img-thumbnail" src="" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 id="n2" class="card-title">Card title</h5>
+                    <h5 class="card-title" id="cod2" >Card title</h5>
+                    <a href="#" onclick="showHistorys(this)" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Quadrinhos</a>
+                  </div>
+                </div>
+              </td>
+              <td>
+                <div class="card" id="c3">
+                  <img id="i3" class="card-img-top" src="" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 id="n3" class="card-title">Card title</h5>
+                    <h5 class="card-title" id="cod3" >Card title</h5>
+                    <a href="#" onclick="showHistorys(this)" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Quadrinhos</a>
+                  </div>
+                </div>
+              </td>
+              <td>
+                <div class="card" id="c4">
+                  <img id="i4" class="card-img-top" src="" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 id="n4" class="card-title">Card title</h5>
+                    <h5 class="card-title" id="cod4" >Card title</h5>
+                    <a href="#" onclick="showHistorys(this)" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Quadrinhos</a>
+                  </div>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div class="card" id="c5">
+                  <img id="i5" class="card-img-top" src="" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 id="n5" class="card-title">Card title</h5>
+                    <h5 class="card-title" id="cod5" >Card title</h5>
+                    <a href="#" onclick="showHistorys(this)" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Quadrinhos</a>
+                  </div>
+                </div>
+              </td>
+              <td>
+                <div class="card" id="c6">
+                  <img id="i6" class="card-img-top" src="" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 id="n6" class="card-title">Card title</h5>
+                    <h5 class="card-title" id="cod6" >Card title</h5>
+                    <a href="#"  onclick="showHistorys(this)" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Quadrinhos</a>
+                  </div>
+                </div>
+              </td>
+              <td>
+                <div class="card" id="c7">
+                  <img id="i7" class="card-img-top" src="" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 id="n7" class="card-title">Card title</h5>
+                    <h5 class="card-title" id="cod7" >Card title</h5>
+                    <a href="#" onclick="showHistorys(this)" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Quadrinhos</a>
+                  </div>
+                </div>
+              </td>
+              <td>
+                <div class="card" id="c8">
+                  <img id="i8" class="card-img-top" src="" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 id="n8" class="card-title">Card title</h5>
+                    <h5 class="card-title" id="cod8" >Card title</h5>
+                    <a href="#" onclick="showHistorys(this)" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Quadrinhos</a>
+                  </div>
+                </div>
+              </td>
+              <td>
+                <div class="card" id="c9">
+                  <img id="i9" class="card-img-top" src="" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 id="n9" class="card-title">Card title</h5>
+                    <h5 class="card-title" id="cod9" >Card title</h5>
+                    <a href="#" onclick="showHistorys(this)" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Quadrinhos</a>
+                  </div>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div class="card" id="c10">
+                  <img id="i10" class="card-img-top" src="" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 id="n10" class="card-title">Card title</h5>
+                    <h5 class="card-title" id="cod10" >Card title</h5>
+                    <a href="#" onclick="showHistorys(this)" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Quadrinhos</a>
+                  </div>
+                </div>
+              </td>
+              <td>
+                <div class="card" id="c11">
+                  <img id="i11" class="card-img-top" src="" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 id="n11" class="card-title">Card title</h5>
+                    <h5 class="card-title" id="cod11" >Card title</h5>
+                    <a href="#"  onclick="showHistorys(this)" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Quadrinhos</a>
+                  </div>
+                </div>
+              </td>
+              <td>
+                <div class="card" id="c12">
+                  <img id="i12" class="card-img-top" src="" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 id="n12" class="card-title">Card title</h5>
+                    <h5 class="card-title" id="cod12" >Card title</h5>
+                    <a href="#" onclick="showHistorys(this)" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Quadrinhos</a>
+                  </div>
+                </div>
+              </td>
+              <td>
+                <div class="card" id="c13">
+                  <img id="i13" class="card-img-top" src="" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 id="n13" class="card-title">Card title</h5>
+                    <h5 class="card-title" id="cod13" >Card title</h5>
+                    <a href="#" onclick="showHistorys(this)" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Quadrinhos</a>
+                  </div>
+                </div>
+              </td>
+              <td>
+                <div class="card" id="c14">
+                  <img id="i14" class="card-img-top" src="" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 id="n14" class="card-title">Card title</h5>
+                    <h5 class="card-title" id="cod14" >Card title</h5>
+                    <a href="#" onclick="showHistorys(this)" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Quadrinhos</a>
+                  </div>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div class="card" id="c15">
+                  <img id="i15" class="card-img-top" src="" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 id="n15" class="card-title">Card title</h5>
+                    <h5 class="card-title" id="cod15" >Card title</h5>
+                    <a href="#" onclick="showHistorys(this)" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Quadrinhos</a>
+                  </div>
+                </div>
+              </td>
+              <td>
+                <div class="card" id="c16">
+                  <img id="i16" class="card-img-top" src="" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 id="n16" class="card-title">Card title</h5>
+                    <h5 class="card-title" id="cod16" >Card title</h5>
+                    <a href="#"  onclick="showHistorys(this)" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Quadrinhos</a>
+                  </div>
+                </div>
+              </td>
+              <td>
+                <div class="card" id="c17">
+                  <img id="i17" class="card-img-top" src="" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 id="n17" class="card-title">Card title</h5>
+                    <h5 class="card-title" id="cod17" >Card title</h5>
+                    <a href="#" onclick="showHistorys(this)" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Quadrinhos</a>
+                  </div>
+                </div>
+              </td>
+              <td>
+                <div class="card" id="c18">
+                  <img id="i18" class="card-img-top" src="" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 id="n18" class="card-title">Card title</h5>
+                    <h5 class="card-title" id="cod18" >Card title</h5>
+                    <a href="#" onclick="showHistorys(this)" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Quadrinhos</a>
+                  </div>
+                </div>
+              </td>
+              <td>
+                <div class="card" id="c19">
+                  <img id="i19" class="card-img-top" src="" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 id="n19" class="card-title">Card title</h5>
+                    <h5 class="card-title" id="cod19" >Card title</h5>
+                    <a href="#" onclick="showHistorys(this)" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Quadrinhos</a>
+                  </div>
+                </div>
+              </td>
+            </tr>
+          </tbody>
+        </table> 
+        <!-- <div class="controls">
+          <div class="first">&#171;</div>
+          <div class="prev"><</div>
+          <div class="numbers">
+              <div>1</div>
+          </div>
+          <div class="next">></div>
+          <div class="last">&#187;</div>
+        </div>
+      </div>      -->
+     
+      <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Quadrinhos</h5>
+              </div>
+              <div class="modal-body">
+                <div class="list-group" id="historys">
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button type="button" onclick="clear()" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+      </div>
+    <span id="data" style="visibility: hidden">
+
+      <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.24/js/jquery.dataTables.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+      <script src="js/md5.min.js"></script>
+      <script src="js/requests.js"></script>
+      <script src="js/parseData.js"> </script>
+    
+    <script>
+      getCharacterList();
+
+      $(document).ready(function(){
+        $("#myInput").on("keyup", function() {
+          var value = $(this).val().toLowerCase();
+          $("#myTable tr td .card").filter(function() {
+            $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+          });
+        });
+
+        
+       });
+    </script>   
+
+  
+  </body>
+</html>
