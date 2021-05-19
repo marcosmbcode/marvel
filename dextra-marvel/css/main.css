@@ -82,6 +82,9 @@ table {
     table tbody tr {
         display: flex;
         flex-direction: column;
+    }
+
+    table {
         width: 100%;
     }
 
